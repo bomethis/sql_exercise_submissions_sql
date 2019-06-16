@@ -26,7 +26,7 @@ where (student_name like '%ae%' or student_name like '%ph%')
 
 AND age !=19;
 
-Write a query that lists the names of students sorted by their age from largest to smallest.
+Write a query that lists the names of students sorted by their age from largest to smallest. 
 
 select student_name
 
@@ -44,11 +44,11 @@ order by age desc
 
 limit 4;
 
-ADVANCED:
+ADVANCED: 
 
-Write a query that returns students based on the following criteria:
+Write a query that returns students based on the following criteria: 
 
-The student must not be older than age 20 if their student_no is either between 3 and 5 or their student_no is 7. Your query should also return students older than age 20 but in that case they must have a student_no that is at least 4.
+The student must not be older than age 20 if their student_no is either between 3 and 5 or their student_no is 7. Your query should also return students older than age 20 but in that case they must have a student_no that is at least 4. 
 
 select *
 
